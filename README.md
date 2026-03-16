@@ -70,8 +70,4 @@ server {
 
 👥 Collaboration (Travail en binôme)
 
-Le développement en binôme a été une opportunité de mettre en pratique des méthodes de travail collaboratives:
-
-Répartition des tâches : Conception du Modèle Conceptuel de Données (MCD) et développement des algorithmes de tir.
-
-Gestion de version : Utilisation de Git et GitHub pour la fusion des fonctionnalités et le suivi des modifications.
+Le développement en binôme a été une opportunité de mettre en pratique des méthodes de travail collaboratives
