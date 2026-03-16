@@ -1,4 +1,4 @@
-# ⚓ Bataille Navale - PHP & MySQL (Architecture Nginx)
+# Bataille Navale - PHP & MySQL (Architecture Nginx)
 
 ### 📋 Présentation du projet
 Ce projet consiste en une reproduction du célèbre jeu de la **Bataille Navale**, développée entièrement en **PHP 8.2** avec une gestion de données via **MySQL**. L'objectif était de concevoir un système de jeu fonctionnel et robuste en se concentrant exclusivement sur la logique serveur (Back-end), sans l'utilisation de JavaScript.
@@ -27,24 +27,30 @@ Ce projet consiste en une reproduction du célèbre jeu de la **Bataille Navale*
 ### 🚀 Installation et Configuration
 
 #### 1. Cloner le repository
-```llgit clone [https://github.com/ton-username/bataille-navale.git](https://github.com/ton-username/bataille-navale.git)
+```
+llgit clone [https://github.com/ton-username/bataille-navale.git](https://github.com/ton-username/bataille-navale.git)
 cd bataille-navale
+```
 
 #### 2. Configuration de la base de données
 
 Importez le schéma SQL fourni dans votre instance MySQL :
 
-```CREATE DATABASE bataille_navale;
+```
+CREATE DATABASE bataille_navale;
 USE bataille_navale;
+```
 -- Importez ici votre fichier .sql
+```
 SOURCE database.sql;
+```
 
 3. Configuration de Nginx
 
 Pour faire fonctionner ce projet sous Nginx avec PHP 8.2, utilisez la configuration suivante:
 Nginx
-
-```server {
+```
+server {
      listen 80;
     server_name localhost;
     root /var/www/bataille-navale;
@@ -58,12 +64,13 @@ Nginx
         include snippets/fastcgi-php.conf;
         fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
     }
-]
+}
+```
 
 👥 Collaboration (Travail en binôme)
 
 Le développement en binôme a été une opportunité de mettre en pratique des méthodes de travail collaboratives:
 
-    Répartition des tâches : Conception du Modèle Conceptuel de Données (MCD) et développement des algorithmes de tir.
+Répartition des tâches : Conception du Modèle Conceptuel de Données (MCD) et développement des algorithmes de tir.
 
-    Gestion de version : Utilisation de Git et GitHub pour la fusion des fonctionnalités et le suivi des modifications.
+Gestion de version : Utilisation de Git et GitHub pour la fusion des fonctionnalités et le suivi des modifications.
