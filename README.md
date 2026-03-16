@@ -8,6 +8,7 @@ Ce projet consiste en une reproduction du célèbre jeu de la **Bataille Navale*
 ---
 
 ### 🛠️ Caractéristiques techniques
+* **Architecture :** Modèle-Vue-Contrôleur (MVC) pour une séparation claire de la logique métier et de l'interface.
 * **Serveur Web :** Nginx (configuré pour PHP-FPM).
 * **Langage :** PHP 8.2.
 * **Base de données :** MySQL / SQL.
