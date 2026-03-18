@@ -29,7 +29,7 @@ Ce projet consiste en une reproduction du célèbre jeu de la **Bataille Navale*
 
 #### 1. Cloner le repository
 ```
-llgit clone [https://github.com/ton-username/bataille-navale.git](https://github.com/ton-username/bataille-navale.git)
+git clone [https://github.com/ton-username/bataille-navale.git](https://github.com/ton-username/bataille-navale.git)
 cd bataille-navale
 ```
 
