@@ -12,7 +12,7 @@ Ce projet consiste en une reproduction du célèbre jeu de la **Bataille Navale*
 * **Serveur Web :** Nginx (configuré pour PHP-FPM).
 * **Langage :** PHP 8.2.
 * **Base de données :** MySQL / SQL.
-* **Front-end :** HTML5 et CSS3 (Design responsive).
+* **Front-end :** HTML5 et CSS3 (Design non responsive).
 * **Environnement :** Linux.
 
 ---
